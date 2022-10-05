@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+.hero{
+    display: grid;
+    grid-template-areas:"sedans suvs luxury";
+    grid-template-rows: auto;
+    grid-template-columns: 16em 16em 16em;
+    margin-top: 11em;
+    margin-left: 24em;
+    width: 50em;
+    height: 25em;
+}
+.sedans{
+    grid-area: sedans;
+    background-color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    color: white;
+    border-radius: 2% 0 0 2%;
+}
+.suvs{
+    grid-area: suvs;
+    background-color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    color: white;
+}
+.luxury{
+    grid-area: luxury;
+    background-color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    color: white;
+    border-radius: 0 2% 2% 0;
+}
+.headline{
+    font-size: 30px;
+    margin-left: 1em;
+    margin-top: 0.3em;
+    color:hsl(0, 0%, 95%);
+}
+
+.button1{
+    width: 10em;
+    margin-top: 8em;
+    height:3em;
+    border-radius: 20%;
+    border-color: white;
+    color:hsl(31, 77%, 52%);
+}
+.button2{
+    width: 10em;
+    margin-top: 8em;
+    height:3em;
+    border-radius: 20%;
+    border-color: white;
+    color: hsl(184, 100%, 22%);
+}
+.button3{
+    width: 10em;
+    margin-top: 8em;
+    height:3em;
+    border-radius: 20%;
+    border-color: white;
+    color:hsl(179, 100%, 13%);
+}
+
+.button1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color:white;
+}
+.button2:hover{
+    background-color: hsl(184, 100%, 22%);
+    color:white;
+} 
+.button3:hover{
+    background-color: hsl(179, 100%, 13%);
+    color:white;
+}
+.text{
+    margin-left: 2em;
+    margin-top: 0.6em;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+.icon{
+    margin-top: 2.5em;
+    margin-left: 2em;
+    height: 30px;
+}
